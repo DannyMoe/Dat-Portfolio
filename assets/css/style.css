@@ -23,16 +23,19 @@ body {
 	padding-left: 40px;
 }
 
-.logoWords h1, .logoWords h2 {
+.logoWords a {
 	margin: 0px;
 	font-family: Oswald;
 	font-size: 2em;
 	letter-spacing: 6px;
 	line-height: 1em;
 	text-transform: uppercase;
+	text-decoration: none;
+	color: inherit;
 }
 
-.logoWords h1 {
+.logoWords a span.daniel {
+	display: block;
 	letter-spacing: 9px;
 }
 
@@ -148,6 +151,36 @@ body {
 }
 
 
+/* Content Sections */
+.content {
+	height: 45em;
+	width: 85em;
+	margin: 0 auto;
+	margin-top: 60px;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -204,6 +237,12 @@ footer a {
 
 footer a:hover {
 	color: #E74C3C;
+}
+
+.shadow {
+  -moz-box-shadow:    inset 0 0 10px #444;
+   -webkit-box-shadow: inset 0 0 10px #444;
+   box-shadow:         inset 0 0 10px #444;
 }
 
 .hidden {
