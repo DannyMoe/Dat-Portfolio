@@ -1,0 +1,211 @@
+html {
+	font-size: 10pt;
+	font-family: Roboto;
+}
+
+body {
+	background: url(img/hexellence.png) !important;
+	padding: 0px;
+	margin: 0px;
+}
+
+.top {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	margin-bottom: 40px;
+	background-color: #2e2e2e;
+	color: #ECF0F1;
+}
+
+.logoWords {
+	padding-top: 10px;
+	padding-left: 40px;
+}
+
+.logoWords h1, .logoWords h2 {
+	margin: 0px;
+	font-family: Oswald;
+	font-size: 2em;
+	letter-spacing: 6px;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+.logoWords h1 {
+	letter-spacing: 9px;
+}
+
+.net {
+	font-size: .8em;
+	color: #E74C3C;
+}
+
+.siteNav {
+	display: inline;
+	position: relative;
+	float: right;
+	padding-right: 35px;	
+}
+
+.siteNav li {
+	float: left;
+	list-style: none;
+	padding: 10px 5px 5px 10px;
+}
+
+.siteNav li a  {
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: white;
+	opacity: 0.8;
+}
+
+.siteNav li a:hover {
+	opacity: 1;
+	color: #3498DB;
+}
+
+.socialBar {
+	position: relative;
+	bottom: 23px;
+	width: 80px;
+	margin: 0 auto;
+}
+
+.socialBar a {
+	color: #ECF0F1;
+	text-decoration: none;
+	position: absolute;
+	padding: 5px;
+}
+
+.twitter, .google {
+	right: 140px;
+	bottom: 30px;
+}
+
+.google {
+	right: 90px;
+}
+
+.linkedin, .github {
+	left: 127px;
+	bottom: 30px;
+}
+
+ .github {
+	left: 75px;
+	bottom: 27px;
+}
+
+.logo, .logoInside {
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+}
+
+.logoInside {
+	position: relative;
+	top: 5px;
+	left: 5px;
+	width: 60px;
+	height: 60px;
+	background-color: #BDC3C7;
+	border-color: #000;
+	border-width: 2px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+
+.logoInside span {
+	font-family: Oswald;
+	font-size: 2.3em;
+	font-weight: 300;
+	color: black;
+	position: relative;
+	top: 7px;
+	left: 9px;
+}
+
+.top, .logo, .logoInside {
+	box-shadow: 0px 1px 1px #444;
+}
+
+#D {
+	color: #3498DB;
+}
+
+#M {
+	color: #E74C3C;
+}
+
+
+
+
+
+
+footer {
+	position: fixed;
+	top: 95%;
+	width: 100%;
+	height: 5%;
+	color: #BDC3C7;
+	background-color: #2e2e2e;
+	box-shadow: 0px -1px 1px #444;
+}
+
+footer ul {
+	width: 99%;
+	float: right;
+	position: relative;
+	bottom: 10px;
+}
+
+footer li {
+	float: left;
+	list-style: none;
+	padding: 5px;
+	padding-right: 10%
+}
+
+footer li:first-child {
+	padding-left: 14%;
+}
+
+footer li a, footer li span {
+	position: relative;
+	bottom: 10px;
+	left: 5px;
+}
+
+.footerIcon {
+	position: relative;
+	bottom: 3px;
+	margin-right: -5px;
+}
+
+.phone {
+	position: relative;
+	bottom: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #BDC3C7;
+}
+
+footer a:hover {
+	color: #E74C3C;
+}
+
+.hidden {
+	display: none;
+}
