@@ -5,8 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Daniel Moe - Web Developer and Designer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/style.min.css" />
     <title>Daniel Moe - Web Developer | Web Designer</title>
 </head>
@@ -38,38 +37,60 @@
                 </li>
                 <li><a href="blog.html">blog</a>
                 </li>
-                <li><a href="is.html">about</a>
+                <li class="selected"><a class="selected" href="is.html">about</a>
                 </li>
                 <li><a href="work.html">work</a>
                 </li>
             </nav>
         </header>
-        <div class="row">
-          <section class="welcome">
+        <div>
+            <section class="welcome">
             <h1>Daniel Moe</h1>
             <h2>Web developer in St. Cloud, Minnesota</h2>
-            <p>Hi, I'm Dan and this website exists to prove that I can build websites. Browse around to find out what I'm about or skip that mumbo jumbo and...</p><a class="btn" href="#">Contact Me</a>
+            <p>
+              I like to write JavaScript to solve problems. I also fancy myself a bit of a design work. Offline, I enjoy playing drums in a rock band, cooking, camping and trying to hit golf balls. Who am I kidding, I'm usually online during those things as well.
           </section>
-          <section class="content work">
-            <h2>Previous Projects</h2>
-            <ul class="project-list">
-              <li>
-                <div class="project">
-                  <h4>Amadeus Chamber Symphony</h4>
-                  <a href="work.html"><img src="assets/css/img/acs_thumbnail.png"></a>
-                  <h6>Full Stack Development &amp; Design</h6>
-                </div>
-              </li><li>
-                <div class="project">
-                  <h4>Midwest Coin Concepts</h4>
-                  <a href="work.html"><img src="assets/css/img/mcc_thumbnail.png"></a>
-                  <h6>Full Stack Development &amp; Design</h6>
-                </div>
-              </li>
-            </ul>
+          <section class="skills row">
+            <div class="left-list">
+              <h2>Part Developer</h2>
+              <ul class="code-list">
+                <li>hmtl</li>
+                <li>css</li>
+                <li>javascript/jQuery</li>
+                <li>php</li>
+                <li>backbone.js</li>
+                <li>node.js</li>
+                <li>wordpress</li>
+                <li>databases</li>
+              </ul>
+            </div>
+            <div id="piechart" class="piechart"></div>
+            <div class="right-list">
+              <h2>Part Designer</h2>
+              <ul class="design-list">
+                <li>Website Design</li>
+                <li>UI/UX Design</li>
+                <li>Resposive Design</li>
+                <li>Mobile First</li>
+                <li>Photoshop</li>
+              </ul>
+            </div>
+          </section>
+          <section class="facts row">
+              <h2>Random Facts About Me</h2>
+              <ul class="fact-list">
+                <li>I play drums in a rock band.</li>
+                <li>I'm inexorably tied to the Minnesota Vikings.</li>
+                <li>I like IPAs.</li>
+                <li>I'm an amateur music producer</li>
+                <li>I've been to Heaven, it's called Montana.</li>
+                <li>I know more obscure band names than you.</li>
+              </ul>
+              <img src="assets/css/img/drums.png">
           </section>
         </div>
 
+    </div>
         <footer class="row">
           <div class="footer-section social-footer">
             <h4>Tweets</h4>
@@ -107,8 +128,8 @@
             <p>&copy; <a href="mail:dmoe4000@gmail.com">Daniel Moe</a> 2014 </p>
           </div>
         </footer>
-    </div>
     <script src="https://platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script src="assets/js/production.min.js"></script>
 </body>
 
